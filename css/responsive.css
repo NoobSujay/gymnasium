@@ -1,0 +1,929 @@
+@media (min-width :320px) and (max-width:575px){
+
+    nav {
+        background:#000;
+    }
+    nav .navbar-brand {
+        background: transparent;
+        padding: 0 !important;
+        transform: skew(0deg);
+        border-left: none;
+        border-right: none;
+    }
+    nav .navbar-brand img {
+        transform: skew(0deg);
+        width: 80%;
+    }
+    nav i{
+        color: #fff;
+        position: absolute;
+        top: -10px;
+        right: 20px;
+    }
+    nav ul {
+        text-align: center;
+        background: #000;
+        margin-top: 30px;
+    }
+    nav ul li a:hover{
+        background: #000;
+        color: #fff !important;
+    }
+    nav ul li a:hover::after{
+        width: 0%;
+    }
+    nav ul li .active {
+        color: #fff !important;
+        background: #000;
+    }
+    nav ul li .active::after {
+        width: 0%;
+    }
+
+
+
+
+    #banner-part  .banner-overlay {
+        padding: 60px 0;
+    }
+    #banner-part  .banner-overlay h2 {
+        font-size: 20px;
+    }
+    #banner-part  .banner-overlay h2::before {
+        display: none !important;
+    }
+    #banner-part  .banner-overlay h2::after{
+        display: none !important;
+    }
+    #banner-part  .banner-overlay h1 {
+        font-size: 35px;
+        margin-top: 15px;
+    }
+    #banner-part  .banner-overlay h1::before {
+        display:none;
+    }
+    #banner-part  .banner-overlay h1::after {
+        display:none;
+    }
+    #banner-part  .banner-overlay p {
+        width: auto;
+    }
+    #banner-part  .banner-overlay p::before{
+        display: none;
+    }
+    #banner-part  .banner-overlay p::after{
+        display: none;
+    }
+
+    #banner-part  .banner-overlay a {
+        margin: 0 10px;
+    }
+    #banner-part .slick-dots {
+        bottom: 0px;
+    }
+
+
+
+
+
+    #about-part .title{
+        margin-top: 20px;
+    }
+    #about-part .about-details p {
+        width: auto;
+    }
+
+
+
+
+    
+    #testimonial-part .testimonial-main .test_about h2 {
+        font-size: 15px;
+    }
+    #testimonial-part .testimonial-main p {
+        margin-top: 20px;
+    }
+
+
+     
+
+
+
+    #counter-part .counter-overlay {
+        padding: 10px;
+    }
+    #counter-part .counter-overlay .count .counter {
+        margin-top: 0px;
+    }
+    #counter-part .counter-overlay .cnt {
+        width: 30%;
+        margin: 0 auto;
+    }
+
+
+
+
+    #classes-part {
+        margin-top: 35px;
+    }
+    #classes-part ul{
+        display: flex;
+        justify-content: center;
+    }
+    #classes-part button {
+        padding: 5px 12px;
+    }
+    #classes-part .main .box {
+        width: 50%;
+        margin: 10px 0;
+        padding: 5px;
+    }
+
+
+
+    #partner-part .slider img {
+        padding:0 20px;
+        width: 100%;
+    }
+    #partner-part  .partner-slider .slick-center img {
+        border: none;
+    }
+
+
+
+
+    #contact-part {
+        margin-top: 40px;
+    }
+    #contact-part .contact-name {
+        text-align: center;
+    }
+    #contact-part .contact-main .contact-details {
+        justify-content: center;
+    }
+    #contact-part .contact-main .contact-details .day {
+        margin-top: 10px;
+    }
+    #contact-part .contact-main .contact-details .day h2 {
+        margin: 10px 10px;
+    }
+    #contact-part .contact-main .contact-details .time {
+        margin-top: 10px;
+    }
+    #contact-part .contact-name {
+        margin-top: 20px;
+    }
+    #contact-part .contact-main .up {
+        justify-content: center;
+    }
+    #contact-part .contact-main .dwn {
+        justify-content: center;
+    }
+    #contact-part .contact-img {
+        text-align: center;
+    }
+    #contact-part .social-con h4 {
+        text-align: center;
+    }
+    
+    #contact-part .info_info {
+        margin-left: 10%;
+    }
+    #contact-part .social-icon {
+        text-align: center;
+    }
+    
+        /* ============================ */
+}
+
+
+
+@media (min-width :576px) and (max-width:767px){
+
+    nav {
+        background:#000;
+    }
+    nav .navbar-brand {
+        background: transparent;
+        padding: 0 !important;
+        transform: skew(0deg);
+        border-left: none;
+        border-right: none;
+    }
+    nav .navbar-brand img {
+        transform: skew(0deg);
+        width: 80%;
+    }
+    nav i{
+        color: #fff;
+        position: absolute;
+        top: -10px;
+        right: 20px;
+    }
+    nav ul {
+        text-align: center;
+        background: #000;
+        margin-top: 30px;
+    }
+    nav ul li a:hover{
+        background: #000;
+        color: #fff !important;
+    }
+    nav ul li a:hover::after{
+        width: 0%;
+    }
+    nav ul li .active {
+        color: #fff !important;
+        background: #000;
+    }
+    nav ul li .active::after {
+        width: 0%;
+    }
+
+
+
+
+    #banner-part .banner .banner-overlay {
+        padding: 60px 0;
+    }
+    #banner-part .banner .banner-overlay h2 {
+        font-size: 20px;
+    }
+    #banner-part .banner .banner-overlay h2::before {
+        display: none;
+    }
+    #banner-part .banner .banner-overlay h2::after{
+        display: none;
+    }
+    #banner-part .banner .banner-overlay h1 {
+        font-size: 35px;
+        margin-top: 15px;
+    }
+    #banner-part .banner .banner-overlay h1::before {
+        display:none;
+    }
+    #banner-part .banner .banner-overlay h1::after {
+        display:none;
+    }
+    #banner-part .banner .banner-overlay p {
+        width: auto;
+    }
+    #banner-part .banner .banner-overlay p::before{
+        display: none;
+    }
+    #banner-part .banner .banner-overlay p::after{
+        display: none;
+    }
+
+    #banner-part .banner .banner-overlay a {
+        margin: 0 10px;
+    }
+    #banner-part .slick-dots {
+        bottom: 0px;
+    }
+
+
+ 
+    #about-part {
+        margin-top: 30px;
+    }
+    #about-part .title{
+        margin-top: 20px;
+    }
+    #about-part .about-details p {
+        width: auto;
+    }
+
+
+
+
+    #gallery-part {
+        margin-top: 10px;
+    }
+
+
+
+
+    #team-part {
+        margin-top: 30px;
+    }
+    #team-part .team .img .team-img-overlay {
+        left: 5%;  
+    }
+    #team-part .team .img .team-overlay-icon {
+        margin-left: 180px;
+    }
+
+
+
+    
+    #testimonial-part .testimonial-main .test_about h2 {
+        font-size: 15px;
+    }
+    #testimonial-part .testimonial-main p {
+        margin-top: 20px;
+    }
+    #testimonial-part .testimonial-main .test_about .star {
+        color: #e23e38;
+        margin-top: 9px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+     
+
+
+
+
+    #membership-part {
+        margin-top: 30px;
+    }
+   #member .member_box{
+        margin-bottom:10px !important;
+    }
+    #membership-part .member .member-header h2 {
+        font-size: 15px;
+    }
+    #membership-part .member .member-offer{
+        margin: 0 auto;
+    }
+    #membership-part .member .member-offer ul {
+        margin-left: -30px;
+    }
+
+
+
+  
+    #counter-part .counter-overlay {
+        padding: 10px;
+    }
+    #counter-part .counter-overlay .count .counter {
+        margin-top: 5px;
+    }
+    #counter-part {
+        margin-top: 40px;
+    }
+    #counter-part .counter-overlay .count .counter {
+        margin-top: 15px;
+    }
+    #counter-part .cnt {
+        width: 20%;
+    }
+    #counter-part .counter-overlay .count h2 {
+        font-size: 12px;
+    }
+
+
+
+
+
+
+    #classes-part {
+        margin-top: 30px;
+    }
+    #classes-part ul{
+        display: flex;
+        justify-content: center;
+    }
+    #classes-part button {
+        padding: 5px 12px;
+    }
+    #classes-part .main .box {
+        width: 50%;
+        margin: 10px 0;
+        padding: 5px;
+    }
+
+
+
+    #partner-part .slider img {
+        padding:0 20px;
+        width: 100%;
+    }
+    #partner-part  .partner-slider .slick-center img {
+        border: none;
+    }
+
+
+
+
+
+
+    #contact-part {
+        margin-top: 40px;
+    }
+    #contact-part .contact-name {
+        text-align: center;
+    }
+    #contact-part .contact-main .contact-details {
+        justify-content: center;
+    }
+    #contact-part .contact-main .contact-details .day {
+        margin-top: 10px;
+    }
+    #contact-part .contact-main .contact-details .day h2 {
+        margin: 10px 10px;
+    }
+    #contact-part .contact-main .contact-details .time {
+        margin-top: 10px;
+    }
+    #contact-part .contact-name {
+        margin-top: 20px;
+    }
+    #contact-part .contact-main .up {
+        justify-content: center;
+    }
+    #contact-part .contact-main .dwn {
+        justify-content: center;
+    }
+    #contact-part .contact-img {
+        text-align: center;
+    }
+    #contact-part .social-con h4 {
+        text-align: center;
+    }
+    #contact-part .social-icon {
+        text-align: center;
+    }
+    #contact-part .info_info{
+        margin-left: 25%;
+    }
+        /* ============================ */
+}
+
+
+
+@media (min-width :768px) and (max-width:991px){
+
+    nav {
+        background:#000;
+    }
+    nav .navbar-brand {
+        background: transparent;
+        padding: 0 !important;
+        transform: skew(0deg);
+        border-left: none;
+        border-right: none;
+    }
+    nav .navbar-brand img {
+        transform: skew(0deg);
+        width: 80%;
+    }
+    nav i{
+        color: #fff;
+        position: absolute;
+        top: -10px;
+        right: 20px;
+    }
+    nav ul {
+        text-align: center;
+        background: #000;
+        margin-top: 30px;
+    }
+    nav ul li a:hover{
+        background: #000;
+        color: #fff !important;
+    }
+    nav ul li a:hover::after{
+        width: 0%;
+    }
+    nav ul li .active {
+        color: #fff !important;
+        background: #000;
+    }
+    nav ul li .active::after {
+        width: 0%;
+    }
+
+
+
+
+    #banner-part .banner .banner-overlay {
+        padding: 60px 0;
+    }
+    #banner-part .banner .banner-overlay h2 {
+        font-size: 20px;
+    }
+    #banner-part .banner .banner-overlay h2::before {
+        display: none;
+    }
+    #banner-part .banner .banner-overlay h2::after{
+        display: none;
+    }
+    #banner-part .banner .banner-overlay h1 {
+        font-size: 35px;
+        margin-top: 15px;
+    }
+    #banner-part .banner .banner-overlay h1::before {
+        display:none;
+    }
+    #banner-part .banner .banner-overlay h1::after {
+        display:none;
+    }
+    #banner-part .banner .banner-overlay p {
+        width: auto;
+    }
+    #banner-part .banner .banner-overlay p::before{
+        display: none;
+    }
+    #banner-part .banner .banner-overlay p::after{
+        display: none;
+    }
+
+    #banner-part .banner .banner-overlay a {
+        margin: 0 10px;
+    }
+    #banner-part .slick-dots {
+        bottom: 0px;
+    }
+
+
+ 
+    #about-part {
+        margin-top: 30px;
+    }
+    #about-part .title{
+        margin-top: 20px;
+    }
+    #about-part .about-details p {
+        width: auto;
+    }
+
+
+
+
+    #gallery-part {
+        margin-top: 10px;
+    }
+
+
+
+
+    #team-part {
+        margin-top: 30px;
+    }
+    #team-part .team .img .team-img-overlay {
+        left: 5%;  
+    }
+    #team-part .team .img .team-overlay-icon {
+        margin-left: 180px;
+    }
+
+
+
+    
+    #testimonial-part .testimonial-main .test_about h2 {
+        font-size: 15px;
+    }
+    #testimonial-part .testimonial-main p {
+        margin-top: 20px;
+    }
+    #testimonial-part .testimonial-main .test_about .star {
+        color: #e23e38;
+        margin-top: 9px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+     
+
+
+
+
+    #membership-part {
+        margin-top: 30px;
+    }
+    #membership-part .member .member-header h2 {
+        font-size: 15px;
+    }
+    #membership-part .member .member-offer{
+        margin: 0 auto;
+    }
+    #membership-part .member .member-offer ul {
+        margin-left: -30px;
+    }
+
+
+
+  
+    #counter-part .counter-overlay {
+        padding: 10px;
+    }
+    #counter-part .counter-overlay .count .counter {
+        margin-top: 5px;
+    }
+    #counter-part {
+        margin-top: 40px;
+    }
+    #counter-part .counter-overlay .count .counter {
+        margin-top: 15px;
+    }
+    #counter-part .cnt {
+        width: 20%;
+    }
+    #counter-part .counter-overlay .count h2 {
+        font-size: 14px;
+    }
+
+
+
+
+
+
+    #classes-part {
+        margin-top: 30px;
+    }
+    #classes-part ul{
+        display: flex;
+        justify-content: center;
+    }
+    #classes-part button {
+        padding: 5px 12px;
+    }
+    #classes-part .main .box {
+        width: 20%;
+        margin: 10px 0;
+        padding: 5px;
+    }
+
+
+
+    #partner-part .partner img {
+        padding: 0px 15px;
+    }
+    #partner-part .partner img{
+        width: 100%;
+    }
+    #partner-part  .partner-slider .slick-center img {
+        border: none;
+    }
+
+
+
+
+
+    #contact-part {
+        margin-top: 40px;
+    }
+    #contact-part .contact-name {
+        text-align: center;
+    }
+    #contact-part .contact-main .contact-details {
+        justify-content: center;
+    }
+    #contact-part .contact-main .contact-details .day {
+        margin-top: 10px;
+    }
+    #contact-part .contact-main .contact-details .day h2 {
+        margin: 10px 10px;
+    }
+    #contact-part .contact-main .contact-details .time {
+        margin-top: 10px;
+    }
+    #contact-part .contact-name {
+        margin-top: 20px;
+    }
+    #contact-part .contact-main .up {
+        justify-content: center;
+    }
+    #contact-part .contact-main .dwn {
+        justify-content: center;
+    }
+    #contact-part .contact-img {
+        text-align: center;
+    }
+    #contact-part .social-con h4 {
+        text-align: center;
+    }
+    #contact-part .social-icon {
+        text-align: center;
+    }
+    #contact-part .info_info{
+        margin-left: 32%;
+    }
+        /* ============================ */
+}
+
+
+
+
+@media (min-width :992px) and (max-width:1199px){
+
+    nav .navbar-brand {
+        padding: 6px 10px !important;
+        top: -12px;
+    }
+    
+
+
+
+
+
+
+ 
+    #about-part {
+        margin-top: 30px;
+    }
+    #about-part .title{
+        margin-top: 20px;
+    }
+    #about-part .about-details p {
+        width: auto;
+    }
+
+
+
+
+    #gallery-part {
+        margin-top: 10px;
+    }
+
+
+
+
+    #team-part {
+        margin-top: 30px;
+    }
+    #team-part .team .img .team-img-overlay {
+        left: 5%;  
+    }
+    #team-part .team .img .team-overlay-icon {
+        margin-left: 180px;
+    }
+
+
+
+    
+    #testimonial-part .testimonial-main .test_about h2 {
+        font-size: 15px;
+    }
+    #testimonial-part .testimonial-main p {
+        margin-top: 20px;
+    }
+    #testimonial-part .testimonial-main .test_about .star {
+        color: #e23e38;
+        margin-top: 9px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+     
+
+
+
+
+    #membership-part {
+        margin-top: 30px;
+    }
+    #membership-part .member .member-header h2 {
+        font-size: 15px;
+    }
+    #membership-part .member .member-offer{
+        margin: 0 auto;
+    }
+    #membership-part .member .member-offer ul {
+        margin-left: -30px;
+    }
+
+
+
+  
+    #counter-part .counter-overlay {
+        padding: 10px;
+    }
+    #counter-part .counter-overlay .count .counter {
+        margin-top: 5px;
+    }
+    #counter-part {
+        margin-top: 40px;
+    }
+    #counter-part .counter-overlay .count .counter {
+        margin-top: 15px;
+    }
+    #counter-part .cnt {
+        width: 20%;
+    }
+    #counter-part .counter-overlay .count h2 {
+        font-size: 14px;
+    }
+
+
+
+
+
+
+    #classes-part {
+        margin-top: 30px;
+    }
+    #classes-part ul{
+        display: flex;
+        justify-content: center;
+    }
+    #classes-part button {
+        padding: 5px 12px;
+    }
+    #classes-part .main .box {
+        width: 20%;
+        margin: 10px 0;
+        padding: 5px;
+    }
+
+
+
+    #partner-part  .partner-slider .slider img{
+        margin: 0 10px;
+        width: 90%;
+    }
+    #partner-part  .partner-slider .slick-center img {
+        border: none;
+    }
+    #partner-part .next {
+        left: 865px;
+        top: 48%;
+    }
+    #partner-part .prev {
+        top: 50%;
+        left: -60px;
+    }
+
+
+
+
+
+
+
+    #contact-part .contact-main .contact-details .time h2 {
+        font-size: 12px;
+    }
+    #contact-part .contact-main .up .up-details h3 {
+        width: 160px;
+    }
+    #contact-part .contact-main .dwn .dwn-details h3 {
+        width: 160px;
+    }
+    #contact-part .contact-img img {
+        margin: 4px;
+    }
+    #contact-part .social-icon {
+        display: flex;
+    }
+    #contact-part .social-icon .fb {
+        padding: 10px 10px;
+    }
+    #contact-part .social-icon i {
+        padding: 8px;
+    }
+
+        /* ============================ */
+}
+
+
+
+
+@media (min-width :1200px) and (max-width:1399px){
+    
+
+    #classes-part {
+        margin-top: 30px;
+    }
+    #classes-part ul{
+        display: flex;
+        justify-content: center;
+    }
+    #classes-part button {
+        padding: 5px 12px;
+    }
+    #classes-part .main .box {
+        width: 20%;
+        margin: 21px 0;
+        padding: 5px;
+    }
+
+
+
+    #partner-part  .partner-slider .slider img{
+        margin: 0 10px;
+        width: 90%;
+    }
+    #partner-part  .partner-slider .slick-center img {
+        border: none;
+    }
+    #partner-part .next {
+        left: 1073px;
+        top: 45%;
+    }
+    #partner-part .prev {
+        top: 47%;
+        left: -60px;
+    }
+
+
+
+
+    #contact-part .social-icon {
+        display: flex;
+    }
+}
